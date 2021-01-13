@@ -1,52 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 *,
 input,
 button {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    --primary-color: #23d366;
-    --white-color: #f7f7f7;
-    --white-alt-color: #d1d1d1;
-    --black-color: #222222;
-    --gray-color: #393939;
-    --card-bg-color: #7f7f7f;
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: var(--gray-color);
-}
-::-webkit-scrollbar-thumb:window-inactive {
-    background: var(--gray-color);
+  --primary-color: #23d366;
+  --white-color: #f7f7f7;
+  --white-alt-color: #d1d1d1;
+  --black-color: #222222;
+  --gray-color: #393939;
+  --card-bg-color: #7f7f7f;
 }
 
 .App {
-    background: var(--black-color);
-
-    @media screen and (min-width: 960px) {
-        height: 100vh;
-
-        .main-content {
-            display: flex;
-            justify-content: center;
-        }
-    }
+  width: 100%;
 }
