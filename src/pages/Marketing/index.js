@@ -4,6 +4,7 @@ import Column from '../../components/Column';
 import CardToDownload from '../../components/CardToDownload';
 import CardToModal from '../../components/CardToModal';
 import ImageConsulting from '../../components/modals/Marketing/ImageConsulting';
+import PhotoRequest from '../../components/modals/Marketing/PhotoRequest';
 
 import './styles.scss';
 
@@ -28,8 +29,12 @@ const Marketing = () => {
 
                 <Column columnTitle="Solicitações">
                     <CardToModal
-                        title="Consultoria de Imagem"
+                        title="Consultoria de imagem"
                         Modal={ImageConsulting}
+                    />
+                    <CardToModal
+                        title="Solicitações de fotos"
+                        Modal={PhotoRequest}
                     />
                 </Column>
             </div>

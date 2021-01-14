@@ -6,29 +6,34 @@ import CustomInput from '../../components/CustomInput';
 
 import CustomTextArea from '../../components/CustomTextArea';
 
+import ConfirmBtn from '../../components/buttons/ConfirmBtn';
 
 import './styles.scss';
 
 const Technology = () => {
-    const teste = 'algumacoisa'
-    return(
+    return (
         <div className="page-container">
             <div className="page-content">
-                <Column columnTitle="T.I" columnSubTitle="Solicitações de Serviço" textCenter>
-                    
+                <Column
+                    columnTitle="T.I"
+                    columnSubTitle="Solicitações de Serviço"
+                    textCenter
+                >
                     <div className="responsive-container">
-                        <CustomInput name="Nome" type="text" /> 
-                        <CustomInput name="Gestor" type="password"/>
-                        <CustomInput name="E-mail" type="text"/>
+                        <CustomInput name="Nome" type="text" />
+                        <CustomInput name="Gestor" type="password" />
+                        <CustomInput name="E-mail" type="text" />
 
                         <CustomTextArea />
 
+                        <div className="btn-right">
+                            <ConfirmBtn children="confirmar" />
+                        </div>
                     </div>
-
                 </Column>
             </div>
         </div>
-    )
+    );
 };
 
 export default Technology;
