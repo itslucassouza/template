@@ -1,40 +1,40 @@
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 *,
 input,
 button {
-  font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-  --primary-color: #23d366;
-  --white-color: #f7f7f7;
-  --white-alt-color: #d1d1d1;
-  --black-color: #222222;
-  --gray-color: #393939;
-  --gray-alt-color: #2f2f2f;
-  --card-bg-color: #454545;
+    --primary-color: #23d366;
+    --white-color: #f7f7f7;
+    --white-alt-color: #d1d1d1;
+    --black-color: #222222;
+    --gray-color: #393939;
+    --gray-alt-color: #2f2f2f;
+    --card-bg-color: #454545;
 
-  --normal-text: 16px;
-  --small-text: 14px;
-  --h4-text: 24px;
-  --h3-text: 32px;
-  --h2-text: 36px;
-  --h1-text: 42px;
+    --normal-text: 16px;
+    --small-text: 14px;
+    --h4-text: 22px;
+    --h3-text: 32px;
+    --h2-text: 36px;
+    --h1-text: 42px;
 }
 
 .App {
-  width: 100%;
+    width: 100%;
 }
 
-.page-container{
-  min-height: calc(100vh - 80px);
-  height: 100%;
-  background: var(--black-color);
+.page-container {
+    min-height: calc(100vh - 80px);
+    height: 100%;
+    background: var(--black-color);
 }
