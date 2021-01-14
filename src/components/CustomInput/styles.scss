@@ -1,0 +1,30 @@
+.main-input {
+    display: flex;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+
+
+    border: 1px solid red;
+
+    .main-label {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        align-items: center;
+        background: #454545;
+        height: 37px;
+        border-radius: 5px 0 0 5px;
+        margin: 0;
+        margin-right: -2px;
+    }
+    
+    input {
+        width: 100%;
+        background: #808080;
+        border-radius: 5px;
+        height: 37px;
+        border-radius: 5px;
+        border: none;
+    }
+}
