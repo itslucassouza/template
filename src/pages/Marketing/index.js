@@ -2,6 +2,8 @@ import React from 'react';
 
 import Column from '../../components/Column';
 import CardToDownload from '../../components/CardToDownload';
+import CardToModal from '../../components/CardToModal';
+import ImageConsulting from '../../components/modals/Marketing/ImageConsulting';
 
 import './styles.scss';
 
@@ -22,6 +24,13 @@ const Marketing = () => {
                     <CardToDownload title="MIV EWZ" link="#" />
                     <CardToDownload title="MIV GURU" link="#" />
                     <CardToDownload title="Fotos Assessores" link="#" />
+                </Column>
+
+                <Column columnTitle="Solicitações">
+                    <CardToModal
+                        title="Consultoria de Imagem"
+                        Modal={ImageConsulting}
+                    />
                 </Column>
             </div>
         </div>
