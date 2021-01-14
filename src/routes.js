@@ -1,20 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
-import Marketing from './pages/marketing';
-import Tecnologia from './pages/Tecnologia';
-
+import Marketing from './pages/Marketing';
+import Technology from './pages/Technology';
 
 const Routes = () => {
-    return(
-            <BrowserRouter>
-            <Switch>
-                <Route exact path="/Marketing" component={Marketing} />
-                <Route exact path="/Tecnologia" component={Tecnologia} />
-            </Switch>
-            </BrowserRouter>       
-    )   
-}
-
+    return (
+        <Switch>
+            <Route path="/marketing" component={Marketing} />
+            <Route path="/tech" component={Technology} />
+        </Switch>
+    );
+};
 
 export default Routes;

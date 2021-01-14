@@ -1,0 +1,18 @@
+.card-container {
+    width: 320px;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    background: var(--card-bg-color);
+
+    a {
+        color: var(--white-color);
+        font-weight: 700;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+            color: var(--white-color);
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.content-wrapper {
+    width: fit-content;
+    background: var(--gray-alt-color);
+    border-radius: 5px;
+}
+
+.column {
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 940px) {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
