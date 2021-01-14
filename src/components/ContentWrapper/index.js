@@ -4,9 +4,10 @@ import './styles.scss';
 
 const ContentWrapper = ({ children, column }) => {
     return (
-        <div className={`content-wrapper ${column && 'column'}`}>
+        <div className={`content-wrapper ${column && 'column'}` }>
             {children}
         </div>
+        
     );
 };
 
