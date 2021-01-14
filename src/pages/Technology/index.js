@@ -3,7 +3,9 @@ import React from 'react';
 import Column from '../../components/Column';
 // import ContentWrapper from '../../components/ContentWrapper';
 import CustomInput from '../../components/CustomInput';
+
 import CustomTextArea from '../../components/CustomTextArea';
+
 
 import './styles.scss';
 
@@ -18,7 +20,9 @@ const Technology = () => {
                         <CustomInput name="Nome" type="text" /> 
                         <CustomInput name="Gestor" type="password"/>
                         <CustomInput name="E-mail" type="text"/>
+
                         <CustomTextArea />
+
                     </div>
 
                 </Column>
