@@ -1,0 +1,7 @@
+.columns-area {
+    padding: 42px 20px;
+
+    @media screen and (min-width: 940px) {
+        display: flex;
+    }
+}
