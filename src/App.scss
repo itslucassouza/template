@@ -51,6 +51,9 @@ button {
 
 .responsive-container{
   width: 100%;
+
+  min-width: 240px;
+
   min-width: 300px;
 
 
@@ -68,8 +71,10 @@ button {
   }
 
 
+
 .page-container {
     min-height: calc(100vh - 80px);
     height: 100%;
     background: var(--black-color);
+
 
